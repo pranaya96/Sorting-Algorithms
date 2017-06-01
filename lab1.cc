@@ -1,5 +1,3 @@
-// Bubblesort implementation using int array
- 
 #include <iostream>
 #include <string>
 using namespace std;
@@ -9,7 +7,7 @@ void bubbleSort(T array[], int len);
 
 int main()
 {
-  //initializing string array
+  //initializing int array
   int  array[] = { 2, 8, 3, 6, 4, 1};
   int len = 6;
   bubbleSort(array, len);
