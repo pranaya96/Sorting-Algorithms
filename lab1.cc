@@ -1,3 +1,4 @@
+//Bubblesort implementation using string array
 #include <iostream>
 #include <string>
 using namespace std;
@@ -7,8 +8,8 @@ void bubbleSort(T array[], int len);
 
 int main()
 {
-  //initializing int array
-  int  array[] = { 2, 8, 3, 6, 4, 1};
+  //initializing string array
+  string  array[] = { "Alice", "Bob", "John", "Doe","Aaron", "Sam"};
   int len = 6;
   bubbleSort(array, len);
   return 0;
