@@ -4,7 +4,7 @@
 using namespace std;
  
 template <typename T>
-void bubbleSort(T array[], int len);
+void bubbleSort(T [], int);
 
 int main()
 {
